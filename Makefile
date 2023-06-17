@@ -2,7 +2,7 @@ PROGRAM = main
 
 EXTRA_COMPONENTS = extras/rboot-ota
 
-FLASH_SIZE ?= 8
+FLASH_SIZE = 4MB
 
 ifdef VERSION
 EXTRA_CFLAGS += -DVERSION=\"$(VERSION)\"
