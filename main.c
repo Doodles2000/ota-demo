@@ -196,7 +196,7 @@ void ota_task(void *arg) {
 
     printf(
     "\nOTA-demo code version %s\n"
-    "Based on the eps-open-rtos system parameter editor\n"
+    "Based on the esp-open-rtos system parameter editor\n"
     "In 30 seconds will reset the version to 0.0.0 and reboot to OTA\n"
     "Press enter for 5 new minutes\n"
     "Enter 'help' for more information.\n\n"
